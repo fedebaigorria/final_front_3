@@ -1,0 +1,51 @@
+#root{
+  padding: 0px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+*{
+  margin : 0px;
+  box-sizing: border-box;
+  /*border : 2px solid red;*/
+}
+
+body{
+  width: 100%;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176%;
+  font-size: 16px;
+}
+
+li{
+  list-style: none;
+}
+
+/*Se coloca el h1 por buenas prácticas*/
+h1{
+  display: none;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.main{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  height: 80%;
+}
+
+.container{
+  height: 1000px;
+}
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

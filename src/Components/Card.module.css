@@ -1,0 +1,61 @@
+/* Estilos para la card de información de usuario */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-right: 10px; /* Añadimos un margen derecho para separar las cards horizontalmente */
+  }
+  
+  .avatar {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .email {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .id {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  /* Contenedor para mostrar varias cards de manera horizontal */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitimos que las cards se envuelvan en filas si no caben horizontalmente */
+    justify-content: flex-start; /* Alineamos las cards en el inicio del contenedor */
+  }
+
+.color
+{
+    background-color: red;
+}
+
+/* Estilos para el botón */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
